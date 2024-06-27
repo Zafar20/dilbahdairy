@@ -1,0 +1,89 @@
+{
+    "Meta": {
+        "Home": {
+            "title": "Dilbah Dairy Sut va pishloq mahsulotlari",
+            "description": "2019-yildan buyon O‘zbekistonda birinchi halol sut va pishloq mahsulotlarini ishlab chiqaruvchilardan biri. 'DILBAH SUT' smetana, kefir, pishloq, qatiq va boshqa mahsulotlar kabi keng turdagi mahsulotlar ishlab chiqaradi"
+        },
+        "About": {
+            "title": "Dilbah Dairy - Biz haqimizda",
+            "description": "Korxona o‘z faoliyatini 2011-yilda boshlagan bo‘lib, order olgan va O‘zbekiston Respublikasi davlat organlari reestridan o‘z o‘rnini egallagan (O”zDst ISO 9001:2015, davlat ro‘yxatidan o‘tkazilganligi to‘g‘risidagi guvohnoma No 0003169 UZ SMT 04.036.05294 05/ 09/2017), aholi uchun tabiiy sigir sutidan tayyorlangan sut mahsulotlari ishlab chiqaruvchisi sifatida."
+          },
+        "Contact": {
+            "title": "Dilbah Dairy - Bizning kontaktlarimiz"
+        },
+        "Sertificates": {
+            "title": "Dilbah Dairy - Bizning sertifikatlarimiz"
+        },
+        "Alsafi": {
+            "title": "Dilbah Dairy - Pishloq mahsulotlari",
+            "description": "Alsafi - O‘zbekistonda pishloq mahsulotlari ishlab chiqaruvchi korxona hisoblanadi. Biz pishloqlarning keng assortimentini ishlab chiqaramiz, masalan: Mozzarella, Chechil, TOP, Urma va boshqalar.."
+        },
+        "Dobroe": {
+            "title": "Dilbah Dairy - Sut mahsulotlari",
+            "description": "Доброе деревенское утро - O'zbekistonda sut mahsulotlari ishlab chiqaruvchisi. Smetana, tvorog, qatiq, biokefir va boshqa ko‘plab mahsulotlar ishlab chiqaramiz."
+        }
+      },
+    "Header": {
+        "logoText": "Sut va pishloq mahsulotlari",
+        "main": "Bosh sahifa",
+        "products": "Mahsulotlar",
+        "dobroe": "Dobroe",
+        "alsafi": "AlSafi",
+        "newest": "New Products",
+        "about": "Biz Haqimizda",
+        "sertificates": "Sertifikatlar",
+        "contact": "Qayta Aloqa"
+    },
+    "Content": {
+        "title": "Nordon - sut va pishloq mahsulotlari",
+        "text": "SIZGA MUHABBAT BILAN",
+        "btn": "Biz haqimizda"
+   },
+   "Newgoods": {
+        "title": "Yangi mahsulotlar"
+   },
+   "Ourgoods": {
+    "title": "Bizning mahsulotlarimiz"
+   },
+   "Ourpartners": {
+    "title": "Bizning hamkorlarimiz"
+   },
+   "Ourcontacts": {
+    "title": "Bizning kontaktlarimiz"
+   },
+   "Oursertificates": {
+    "title": "Bizning sertifikatlarimiz"
+   },
+   "Map": {
+    "title": "Xarita"
+   },
+    "Form": {
+        "title": "Biz bilan bog'lanish",
+        "name": "Sizning ismingiz",
+        "number": "Sizning raqamingiz",
+        "email": "Sizning email",
+        "btn": "Yuborish"
+    },
+    "alsafi": {
+        "title": "Alsafi mahsulotlari"
+    },
+    "newest": {
+        "title": "Yangi mahsulotlar"
+    },
+    "dobroe": {
+        "title": "Dobroe mahsulotlari"
+    },
+    "About": {
+        "title": "BIO NATURAL FOOD MChJ kompaniyasining tashkil topish tarixi va faoliyati"
+    },
+    "DynamicPage": {
+        "food_value": "100 g uchun ozuqaviy qiymati",
+        "energy_value": "100 g uchun energiya qiymati",
+        "date": "Amal qilish muddati",
+        "weight": "Og'irligi/Hajmi", 
+        "compound": "Murakkab"
+    },
+    "Catalog": {
+        "title": "Catalogni yuklab olish"
+    }
+}

@@ -1,0 +1,99 @@
+.newgoods {
+    margin: 100px 0;
+    &__box {
+        background: #2144C8;
+        padding: 50px;
+        border-radius: 50px;
+        position: relative;
+        &_title{
+            font-family: Rotonda;
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+            background: rgb(224, 36, 32);
+            color: white;
+            width: min-content;
+            padding: 10px 25px;
+            border-radius: 25px;
+            position: absolute;
+            left: 50%;
+            top: -50px;
+            transform: translateX(-50%);
+            @media (max-width:600px) {
+                font-size: 20px;
+            }
+        }
+        &_list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 50px;
+           
+        }
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: space-between;
+        max-width: 200px;
+        width: 100%;
+        cursor: pointer;
+        &:hover .newgoods__item_link {
+           opacity: 1;
+        }
+        &:hover .newgoods__item_image {
+            transform: scale(1.1);
+        }
+            &_link {
+                color: white;
+                background: rgb(224, 36, 32);
+                box-shadow: 0 7px 16px rgba(255, 78, 69, .31);
+                border-radius: 100px;
+                padding: 0 36px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                opacity: 0;
+            }
+            &_title {
+                margin-bottom: 10px;
+                font-family: Rotonda;
+                font-style: normal;
+                line-height: 24px;
+                color: white;
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -moz-box;
+                -moz-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                line-clamp: 2;
+                box-orient: vertical;
+            }
+            &_img {
+                max-width: 200px;
+                width: 100%;
+                height: 200px;
+                object-fit: cover;
+                position: relative;
+                @media (max-width: 900px) {
+                    height: 200px;
+                }
+            }
+            &_image {
+                object-fit: cover;
+                transition: all 300ms;
+            }
+
+        }
+
+        }
+    

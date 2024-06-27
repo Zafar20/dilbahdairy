@@ -1,0 +1,165 @@
+@import './fonts.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+button,input {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
+
+body {
+    background: rgb(245, 243, 243);
+}
+
+.regular {
+    font-weight: 400;
+}
+.medium {
+    font-weight: 500;
+}
+.bold {
+    font-weight: 700;
+}
+.black {
+    font-weight: 900;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+.h100 {
+    height: 100%;
+}
+.main {
+    margin-top: 100px;
+}
+
+.Toastify__toast {
+    z-index: 10000 !important;
+}
+.previous.disabled,
+.next.disabled {
+    display: none !important;
+}
+
+
+/* Стили для мобильной версии */
+@media (max-width: 500px) {
+
+    .Toastify__toast-container--top-right {
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+    }
+    .Toastify__toast-body > div:last-child {
+        flex: none !important;
+    }
+    
+    .Toastify__toast-body {
+      display: flex !important;
+      justify-content: center !important;
+    }
+    .Toastify__close-button {
+        display: none;
+    }
+    .Toastify__toast-container {
+      width: 80% !important; /* Ширина контейнера на мобильных устройствах */
+    }
+  }
+
+.dropdown {
+    position: relative;
+    display: flex;
+    gap: 7px;
+    cursor: pointer;
+    @media (max-width:1050px) {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        gap: 7px;
+        @media (max-width:1050px) {
+            padding: 15px 20px;
+            display: flex;
+            
+            border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+        }
+    }
+
+    &__lang {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    &__menu {
+        background: white;
+        position: absolute;
+        bottom: -80px;
+        left: 0;
+        width: 120px;
+        border: 1px solid rgb(174, 165, 165);
+        cursor: pointer;
+        @media (max-width:1050px) {
+            position: static;
+            width: 100%;
+            border: none;
+        }
+        li {
+            font-size: 14px;
+            font-weight: 400;
+            color: black;
+            padding: 5px 10px;
+            @media (max-width:1050px) {
+                padding: 15px 20px 15px 50px;
+                width: 100%;
+                background: #2f2f39;
+                color: white;
+                border-bottom: 1px rgba(255, 255, 255, 0.05) solid;
+            }
+            &:hover {
+                background: rgb(187, 182, 182);
+            }
+        }
+    }
+}
+
+.wrapper {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.active {
+    position: relative;
+}

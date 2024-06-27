@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.dilbahdairy.uz
+
+# Sitemaps
+Sitemap: https://www.dilbahdairy.uz/sitemap.xml

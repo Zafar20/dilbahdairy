@@ -1,0 +1,109 @@
+.product {
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    &__title {
+        color: rgb(17, 38, 58);
+        font-size: 36px;
+        font-weight: 600;
+        text-align: center;
+        font-family: Rotonda;
+        @media (max-width:500px) {
+            font-size: 22px;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 72px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        @media (max-width:900px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width:576px) {
+            grid-template-columns: 1fr;
+        }
+
+    }
+
+    &__item {
+        box-shadow: 2px 8px 16px 0 rgba(23, 50, 115, 0.06);
+        border: 1px solid #f2f6fa;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: 300ms;
+       
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0 0 20px 0  #2144C8;;
+            transform: scale(1.05);
+            @media (max-width:500px) {
+                box-shadow: none;
+                transform: scale(1);
+            }
+        }
+      
+        &_img {
+            width: 100%;
+            height: 350px;
+            position: relative;
+           
+        }
+
+        &_image {
+            object-fit: cover;
+        }
+
+        &_info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            padding: 40px;
+        }
+
+        &_title {
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 143%;
+            text-align: center;
+            color: #11263a;
+            font-family: Rotonda;
+        }
+
+        &_text {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 150%;
+            text-align: center;
+            color: #11263a;
+                overflow: hidden;
+                display: -moz-box;
+                -moz-box-orient: vertical;
+                display: -webkit-box;
+                -webkit-line-clamp: 3;
+                -webkit-box-orient: vertical;
+        }
+
+        &_link {
+            background: #e02420;
+            max-width: 210px;
+            width: 100%;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 152%;
+            text-align: center;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+}

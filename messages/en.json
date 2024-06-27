@@ -1,0 +1,89 @@
+{
+    "Meta": {
+        "Home": {
+            "title": "Dilbah Dairy Milk and cheese products",
+            "description": "One of the first Halal producers of dairy and cheese products in Uzbekistan since 2019. DILBAH DAIRY produces a wide range of products, including sour cream, kefir, cheese, yogurt and other products"
+        },
+        "About": {
+            "title": "Dilbah Dairy - About us",
+            "description": "The company began its activities in 2011, having received a warrant and taken its place in the register of government bodies of the Republic of Uzbekistan (O”zDst ISO 9001:2015, certificate No. 0003169 of state registration UZ SMT 04.036.05294 05/09/2017), as a manufacturer of dairy products products for the population made from natural cow's milk."
+          },
+        "Contact": {
+            "title": "Dilbah Dairy - Our contacts"
+        },
+        "Sertificates": {
+            "title": "Dilbah Dairy - Our sertificates"
+        },
+        "Alsafi": {
+            "title": "Dilbah Dairy - Cheese products",
+            "description": "Alsafi is a manufacturer of cheese products in Uzbekistan. We produce a wide range of cheeses, such as: Mozzarella, Chechil, TOP, Urma and others."
+        },
+        "Dobroe": {
+            "title": "Dilbah Dairy - Milk products",
+            "description": "Good Village Morning - producer of dairy products in Uzbekistan. We produce a wide range of products, including sour cream, cottage cheese, yogurt, biokefir and others."
+        }
+      },
+    "Header": {
+        "logoText": "Dairy and cheese products",
+        "main": "Home",
+        "products": "Products",
+        "dobroe": "Dobroe",
+        "alsafi": "AlSafi",
+        "newest": "Yangi mahsulotlar",
+        "about": "About us",
+        "sertificates": "Sertificates",
+        "contact": "Contact"
+    },
+    "Content": {
+        "title": "Sour milk and cheese products",
+        "text": "WITH LOVE FOR YOU",
+        "btn": "About us"
+   },
+   "Newgoods": {
+        "title": "New products"
+   },
+   "Ourgoods": {
+    "title": "Our products"
+   },
+   "Ourpartners": {
+    "title": "Our partners"
+   },
+   "Ourcontacts": {
+    "title": "Our contacts"
+   },
+   "Oursertificates": {
+    "title": "Our sertificates"
+   },
+   "Map": {
+    "title": "Map"
+   },
+    "Form": {
+        "title": "Connect with us",
+        "name": "Your name",
+        "number": "Your number",
+        "email": "Your email",
+        "btn": "Send"
+    },
+    "alsafi": {
+        "title": "Alsafi products"
+    },
+    "dobroe": {
+        "title": "Dobroe products"
+    },
+    "newest": {
+        "title": "New Products"
+    },
+    "About": {
+        "title": "History of the formation and activities of the company BIO NATURAL FOOD LLC"
+    },
+    "DynamicPage": {
+        "food_value": "Nutritional value per 100 g",
+        "energy_value": "Energy value per 100 g",
+        "date": "expiration datee",
+        "weight": "Weight/Capacity", 
+        "compound": "Compound"
+    },
+    "Catalog": {
+        "title": "Download catalog"
+    }
+}

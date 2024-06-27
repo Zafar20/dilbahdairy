@@ -1,0 +1,31 @@
+.input {
+    position: relative;
+  
+    &_icon {
+        position: absolute;
+        left: 27px;
+        top: 10px;
+    }
+    &_span {
+        margin-left: 15px;
+        margin-bottom: 5px;
+    }
+    &_text {
+        box-shadow: 2px 8px 16px 0 rgba(23, 50, 115, 0.06);
+        background: #f8faff;
+        border: 1px solid rgba(17, 68, 201, 0.08);
+        border-radius: 5px;
+        max-width: 300px;
+        width: 100%;
+        height: 57px;
+        padding-left: 82px;
+        padding-right: 27px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 171%;
+        color: #999;
+        &::placeholder {
+            color: #999;
+        }
+    }
+}

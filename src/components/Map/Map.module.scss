@@ -1,0 +1,20 @@
+.map {
+    margin: 50px 0;
+  
+    &_box {
+        height: 500px;
+        width: 100%;
+    }
+    &_title {
+        text-align: center;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 133%;
+        color: #11263a;
+        font-family: Rotonda;
+        margin-bottom: 50px;
+        @media (max-width:600px) {
+            font-size: 20px;
+        }
+    }
+}
