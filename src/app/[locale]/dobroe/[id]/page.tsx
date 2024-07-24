@@ -1,43 +1,32 @@
-import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs';
+import Breadcrumbs from '@/components/Breadcrumbs/Breadcrumbs'
+
 import Ourcontacts from '@/components/Ourcontacts/Ourcontacts';
-import { getContacts, getProductsId } from '@/services/products';
+import { getContacts } from '@/services/products';
 import type { Metadata } from 'next'
-import ProductId from '@/components/ProductId/ProductId';
+import Product from '@/components/Product/Product';
 
 
-
-
-type Props = {
-    params: {
-        id: number
-        locale: string
-    }
-}
-
-export async function generateMetadata({ params: { id, locale } }: Props): Promise<Metadata> {
-    const item = await getProductsId(id, locale, 'dobroe')
-    return {
-        title: item.title
-    }
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const t = await import(`../../../../messages/${params.locale}.json`);
+  return {
+    title: t.Meta.Dobroe.title,
+    description: t.Meta.Dobroe.description,
+  };
 }
 
 
 
+const page = async({ params: {locale} }: { params: { locale: string } }) => {
 
+  const contacts = await getContacts()
 
-
-const page = async ({ params: { id, locale } }: Props) => {
-
-    const data = await getProductsId(id, locale, 'dobroe')
-    const contacts = await getContacts()
-
-    return (
-        <>
-            <Breadcrumbs/>
-            <ProductId data={data}/>
-            <Ourcontacts contacts={contacts}/>
-        </>
-    )
+  return (
+    <div>
+      <Breadcrumbs type="more"/>
+      <Product locale={locale} type="dobroe"/>
+      <Ourcontacts contacts={contacts}/>
+    </div>
+  )
 }
 
 export default page
