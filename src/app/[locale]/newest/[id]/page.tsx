@@ -26,15 +26,14 @@ export async function generateMetadata({ params: { id, locale } }: Props): Promi
 
 
 
-const page = async ({ params: { id, locale } }: Props) => {
+const page = async ({ params: {locale, id} }: { params: { locale: string, id :number } }) => {
 
-    const data = await getProductsId(id, locale, 'dobroe')
     const contacts = await getContacts()
 
     return (
         <>
             <Breadcrumbs/>
-            <ProductId data={data}/>
+            <ProductId locale={locale} id={id} type="dobroe"/>
             <Ourcontacts contacts={contacts}/>
         </>
     )
